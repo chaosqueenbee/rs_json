@@ -1,3 +1,7 @@
+pub fn public_function() {
+    println!("called projectDJ's `public_function()`");
+}
+
 #[cfg(test)]
 mod tests {
     #[test]

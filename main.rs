@@ -1,3 +1,6 @@
+use std::collections::HashMap;
+
 fn main() {
-    rs_json::public_function();
+    let map: HashMap<&str, i32> = HashMap::new();
+    println!("{}", rs_json::dump::<i32>(map));
 }

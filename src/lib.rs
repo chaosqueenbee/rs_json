@@ -1,5 +1,15 @@
+use std::collections::HashMap;
+
 pub fn public_function() {
     println!("called projectDJ's `public_function()`");
+}
+
+pub fn load<T>(_s: &str) -> HashMap<&str, T> {
+    return HashMap::new();
+}
+
+pub fn dump<T>(_dict: HashMap<&str, T>) -> &str {
+    return "Not Implemented";
 }
 
 #[cfg(test)]
